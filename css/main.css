@@ -1,0 +1,128 @@
+#startStory {
+  text-decoration: none;
+  color: black;
+  font-size: 44px;
+  font-weight: 900;
+  background-color: #ec9c13;
+  padding: 5px 50px;
+  border-radius: 30px;
+}
+
+body {
+  background-color: blue;
+}
+
+.next {
+  text-decoration: none;
+  color: black;
+  font-size: 67px;
+  font-weight: 155;
+  background-color: #00fb22;
+  padding: 5px 50px;
+  border-radius: 30px;
+  /* max-width: 150px; */
+
+  margin-left: 10px;
+}
+
+.previous {
+  text-decoration: none;
+  color: black;
+  font-size: 67px;
+  font-weight: 155;
+  background-color: #ff1111;
+  padding: 5px 50px;
+  border-radius: 30px;
+  /* max-width: 150px; */
+
+  margin-left: 10px;
+}
+
+.Backtostart {
+  text-decoration: none;
+  color: black;
+  font-size: 67px;
+  font-weight: 155;
+  background-color: #ff4d00;
+  padding: 5px 50px;
+  border-radius: 30px;
+  /* max-width: 150px; */
+
+  margin-left: 10px;
+}
+
+.toilets {
+  position: absolute;
+  left: 0;
+  scale: 0.6;
+  top: 75;
+}
+
+.stickman {
+
+position: absolute;
+  right: 60;
+  scale: 2,0;
+  top: 500;
+ 
+}
+
+
+
+
+.boble {
+  background-color: white;
+  padding: 50px;
+  border-radius: 360px;
+  position: absolute;
+  top: 100;
+  left: 500;
+  font-family: "lakki";''
+}
+
+.partyman {
+  position: absolute;
+  top: 250;
+  left: 500;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 80%; */
+
+  height: 100vh;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+}
+
+img {
+  position: relative;
+  right: -60px;
+}
+
+h1 {
+  font-family: "Lakki";
+  color: #ec9c13;
+  font-size: 90px;
+}
+
+.smoke {
+  position: absolute;
+  right: 510px;
+  top: 350px;
+}
+
+#text {
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: "Lakki";
+  src: url("../font/LakkiReddy-Regular.ttf");
+}
